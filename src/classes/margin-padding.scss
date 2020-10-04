@@ -1,0 +1,20 @@
+$spaceAmountsEm: (.25, .5, 1, 2, 3); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+$spacer: 1rem;
+ 
+@for $index from 1 to 5 {
+    @each $side in $sides {
+        .m-#{$index} {
+            margin: nth($spaceAmountsEm, $index) * $spacer !important;
+        }
+        .m#{str-slice($side, 0, 1)}-#{$index} {
+            margin-#{$side}: nth($spaceAmountsEm, $index) * $spacer !important;
+        }
+        .p-#{$index} {
+            padding: nth($spaceAmountsEm, $index) * $spacer !important;
+        }
+        .p#{str-slice($side, 0, 1)}-#{$index} {
+            padding-#{$side}: nth($spaceAmountsEm, $index) * $spacer !important;
+        }
+    }
+}

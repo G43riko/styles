@@ -1,3 +1,5 @@
+@import "./classes/classes.scss";
+
 * {
     padding: 0;
     margin: 0;
@@ -12,21 +14,10 @@
     height: 100vh;
 }
 
-.flex-divider {
-    flex: 1 1 auto;
-}
-
 .hidden {
     display: none !important;
 }
 
-.full-width {
-    width: 100%;
-}
-
-.full-height {
-    height: 100%;
-}
 
 .faded {
   opacity: 0;
