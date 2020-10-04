@@ -1,0 +1,22 @@
+.slider {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+  .slider::-webkit-scrollbar, .slider::-webkit-scrollbar-track, .slider::-webkit-scrollbar-thumb {
+    visibility: hidden; }
+  .slider:hover::-webkit-scrollbar, .slider:hover::-webkit-scrollbar-track, .slider:hover::-webkit-scrollbar-thumb {
+    visibility: visible; }
+  .slider::-webkit-scrollbar {
+    width: 7px;
+    visibility: hidden; }
+  .slider::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    visibility: hidden; }
+  .slider::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    visibility: hidden; }
+  .slider::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2); }

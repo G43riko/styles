@@ -1,0 +1,38 @@
+$sliderColor: rgb(0, 0, 0) !default;
+
+.slider {
+    &::-webkit-scrollbar, &::-webkit-scrollbar-track, &::-webkit-scrollbar-thumb {
+        visibility: hidden;
+    }
+
+    &:hover {
+        &::-webkit-scrollbar, &::-webkit-scrollbar-track, &::-webkit-scrollbar-thumb {
+            visibility: visible;
+        }
+    }
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 7px;
+        visibility: hidden;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: rgba($sliderColor, .05);
+        border-radius: 10px;
+        visibility: hidden;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: rgba($sliderColor, .15);
+        border-radius: 10px;
+        visibility: hidden;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba($sliderColor, .2);
+    }
+}
