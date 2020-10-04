@@ -72,6 +72,42 @@
 .flex-divider {
   flex: 1 1 auto; }
 
+.overflow-hidden {
+  overflow: hidden !important; }
+
+.overflow-x-hidden {
+  overflow: hidden !important; }
+
+.overflow-y-hidden {
+  overflow: hidden !important; }
+
+.overflow-auto {
+  overflow: auto !important; }
+
+.overflow-x-auto {
+  overflow: auto !important; }
+
+.overflow-y-auto {
+  overflow: auto !important; }
+
+.overflow-scroll {
+  overflow: scroll !important; }
+
+.overflow-x-scroll {
+  overflow: scroll !important; }
+
+.overflow-y-scroll {
+  overflow: scroll !important; }
+
+.overflow-visible {
+  overflow: visible !important; }
+
+.overflow-x-visible {
+  overflow: visible !important; }
+
+.overflow-y-visible {
+  overflow: visible !important; }
+
 .w-25 {
   width: 25% !important; }
 

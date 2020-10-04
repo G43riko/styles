@@ -28,6 +28,10 @@
   visibility: hidden;
 }
 
+.resizable {
+  resize: both;
+}
+
 .absolute-full-size {
   position: absolute;
   width: 100%;
