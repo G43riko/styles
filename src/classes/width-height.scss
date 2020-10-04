@@ -1,4 +1,4 @@
-$spaceAmountsEm: (25, 50, 100);
+$spaceAmountsEm: (25, 50, 75, 100);
 @each $space in $spaceAmountsEm {
     .w-#{$space} {
         width: percentage($space / 100) !important;

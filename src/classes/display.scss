@@ -1,9 +1,10 @@
-.d-block {
-    display: block;
-}
 
-.d-flex {
-    display: flex;
+
+$displayValues: (none, block, inline-block, flex, inline-flex);
+@each $displayValue in $displayValues {
+    .d-#{$displayValue} {
+        display: $displayValue !important;
+    }
 }
 
 .d-flex-row {

@@ -1,0 +1,21 @@
+
+
+$positionValues: (absolute, relative, sticky, fixed, static);
+@each $positionValue in $positionValues {
+    .position-#{$positionValue} {
+        position: $positionValue !important;
+    }
+}
+
+.top {
+    top: 0;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.bottom {
+    bottom: 0;
+}
