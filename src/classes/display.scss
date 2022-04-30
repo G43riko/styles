@@ -1,6 +1,6 @@
 
 
-$displayValues: (none, block, inline-block, flex, inline-flex);
+$displayValues: (none, block, inline-block, flex, inline-flex, grid, inline-grid);
 @each $displayValue in $displayValues {
     .d-#{$displayValue} {
         display: $displayValue !important;

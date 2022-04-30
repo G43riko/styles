@@ -1,10 +1,12 @@
+@use "sass:math";
+
 $spaceAmountsEm: (25, 50, 75, 100);
 @each $space in $spaceAmountsEm {
     .w-#{$space} {
-        width: percentage($space / 100) !important;
+        width: percentage(math.div($space, 100)) !important;
     }
     .h-#{$space} {
-        height: percentage($space / 100) !important;
+        height: percentage(math.div($space, 100)) !important;
     }
 }
 
